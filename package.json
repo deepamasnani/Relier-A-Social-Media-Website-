@@ -1,7 +1,7 @@
 {
   "name": "codeial",
   "version": "1.0.0",
-  "description": "My social media web app",
+  "description": "My all social media web application",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -10,9 +10,23 @@
   "keywords": [
     "social"
   ],
-  "author": "Deepam",
+  "author": "CodingNinjas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongo-connect": "^0.0.6",
+    "mongoose": "^5.13.2",
+    "node-gyp": "^8.1.0",
+    "node-sass-middleware": "^0.11.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.0.0"
   }
 }
