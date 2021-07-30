@@ -7,5 +7,7 @@
   #layout-footer a {
     color: white;
     text-decoration: none; }
+    #layout-footer a:hover {
+      color: red; }
   #layout-footer .footer-nav ul {
     list-style: none; }

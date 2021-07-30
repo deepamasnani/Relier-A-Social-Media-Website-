@@ -22,6 +22,11 @@
         list-style: none;
         margin: 5% 5px;
         display: flex;
+        a {
+          &:hover {
+            color: black;
+          }
+        }
 
         li {
           margin-right: 10px;

@@ -15,6 +15,8 @@
     list-style: none;
     margin: 5% 5px;
     display: flex; }
+    #layout-header nav .auth-links ul a:hover {
+      color: black; }
     #layout-header nav .auth-links ul li {
       margin-right: 10px; }
   #layout-header nav a {
